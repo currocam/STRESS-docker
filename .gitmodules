@@ -1,0 +1,6 @@
+[submodule "ScientificPython"]
+	path = ScientificPython
+	url = https://github.com/khinsen/ScientificPython
+[submodule "MMTK"]
+	path = MMTK
+	url = https://github.com/khinsen/MMTK
