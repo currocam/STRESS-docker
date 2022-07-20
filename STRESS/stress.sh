@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ## This is the pipeline for the BL and GN modules
 ## Notice it will generate tmp files 
 ## Make sure the file names are unique
@@ -21,7 +21,7 @@ EXIT_CODE=0
 # Top level dirs
 CODE_BUNDLE_BL="./surface_residue"
 CODE_BUNDLE_GN="./interior_residue"
-PYTHONPATH="python"
+PYTHONPATH="/usr/bin/python2"
 PERLPATH="perl"
 
 # Shared code used in both BL and GN pipelines
